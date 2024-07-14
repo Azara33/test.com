@@ -1,13 +1,14 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url(Galaxy.jpg); /* Replace 'background-image.jpg' with your image file path */
-    background-repeat: no-repeat;    
-    background-size: cover;  /* Scales the image to fit the container */
+    background-image: url(wall_board_lights_black_background_4k_hd_black_background.jpg); /* Replace 'background-image.jpg' with your image file path */
+    background-repeat: no-repeat;
+    
+    background-size:cover;  /* Scales the image to fit the container */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents repeating */
     width: 95%;
     height: 100%; /* Adjust height as needed */
-    background-color: #f4f4f4;
+    background-color: #292929;
     margin: 0;
     padding: 20px;
     display: flex;
@@ -23,11 +24,11 @@ h2 {
 }
 
 form {
-    background: #fff;
+    background: #ffffff;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    max-width: 400px;
+    max-width: 300px;
     width: 100%;
 }
 
@@ -42,16 +43,17 @@ input[type="text"],
 input[type="email"],
 input[type="tel"] {
     width: calc(100% - 20px);
+    background-color: #ffffff;
     padding: 10px;
     margin-bottom: 15px;
-    border: 1px solid #ccc;
+    border: 1px solid #bebebe;
     border-radius: 5px;
     font-size: 16px;
 }
 
 input[type="submit"] {
-    background-color: #5cb85c;
-    color: white;
+    background-color: #8026d4;
+    color: rgb(255, 255, 255);
     border: none;
     padding: 12px 20px;
     text-align: center;
@@ -61,20 +63,25 @@ input[type="submit"] {
     margin: 20px auto 0;
     cursor: pointer;
     border-radius: 5px;
-    transition: background-color 0.3s ease;
+    transition: 0.5s
 }
 
 input[type="submit"]:hover {
-    background-color: #4cae4c;
+    background-color: #45c7fa;
+    letter-spacing: 0.05em
+}
+
+input[type="submit"]:hover {
+    box-shadow: 0 0 25px #32fff5;
 }
 
 input[type="submit"]:active {
-    background-color: #3e8e3e;
+    background-color: #8026d4;
 }
 
 .message {
-    background-color: #dff0d8;
-    color: #3c763d;
+    background-color: #ffffff;
+    color: #8026d4;
     border: 1px solid #d6e9c6;
     padding: 10px;
     margin-bottom: 20px;
@@ -82,4 +89,26 @@ input[type="submit"]:active {
     text-align: center;
     max-width: 400px;
     margin: auto;
+}
+
+.highlight {
+    color: #ff0000;
+    background-color:#32fff5
+}
+
+.highlight {
+    border-radius: 10px;
+    padding: 6px;
+}
+
+.FORMIMG {
+    size: 50%; 
+}
+
+.form-img {
+    width: 300px ;
+    height: 465px;
+    background-size: contain;
+    border-radius: 10px;
+
 }
